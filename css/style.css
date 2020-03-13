@@ -13,3 +13,35 @@ header #content-navbar nav{
 header #content-navbar nav .items{
     
 }
+.Profils {
+    display: flex;
+    flex-direction: space-arround;
+}
+.Profil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 2%;
+}
+.Profil img{
+    border-radius: 50%;
+    border: solid;
+    border-color: green;
+}
+footer {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+#LogoPanda{
+    max-width: 20%;
+    max-height: 20%;
+    width: auto;
+    height: auto;
+}
+#Adresse {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30%;
+}
