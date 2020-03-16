@@ -16,6 +16,6 @@ function changeToggle(){
     }else if(!etat){
         this.classList.add("anim-button-toggle-false")
         this.classList.remove("anim-button-toggle-true")
-        contentButton.style.backgroundColor = "#aeaeae"
+        contentButton.style.backgroundColor = "#e0e0e0"
     }
 }
