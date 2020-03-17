@@ -1,3 +1,25 @@
+.anim-nav-hidden{
+    animation-duration: 0.4s;
+    animation-name: animNavHidden;
+    animation-fill-mode: forwards;
+}
+.anim-nav-visible{
+    animation-duration: 0.4s;
+    animation-name: animNavVisible;
+    animation-fill-mode: forwards;
+}
+
+.anim-nav-button-left{
+    animation-duration: 0.4s;
+    animation-name: animNavButtonLeft;
+    animation-fill-mode: forwards;
+}
+.anim-nav-button-rigth{
+    animation-duration: 0.4s;
+    animation-name: animNavButtonReft;
+    animation-fill-mode: forwards;
+}
+
 header{
     width: 100%;
     height: 1000px;
@@ -5,6 +27,15 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 100%;
+}
+.button-nav-bar{
+    display: none;
+    font-size: 2em;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    z-index: 10000;
 }
 .color{
     width: 100%;
@@ -44,8 +75,6 @@ header{
     top: 30%;
         
 }
-
-
 .container-rs{
     right: 20%;
     top: 8px;
@@ -57,7 +86,9 @@ header{
 .container-rs a img{
     width: 2em;
 }
-
+.menu-aside{
+    display: none;
+}
 @media screen and (max-width: 1700px) {
     .container-rs{
         right: 5%;
@@ -69,10 +100,70 @@ header{
         left: 42%;
     }
     .container-options{
-        display: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: fixed;
+        height: 50%;
+        width: 260px;
+        top: 0px;
+        left: -200px;
+        background-color: green;
+        opacity: 0.5;
+        height: 100%;
+    }
+    .container-options a {
+        position: relative;
+        top: 5%;
+    }
+    .container-options a:hover {
+        color: black;
     }
     .container-rs{
         display: flex;
         flex-direction: column;
+    }
+    .button-nav-bar{
+        display: initial;
+        left: 20px;
+    }
+    .button-nav-bar:hover{
+        color: black;
+    }
+}
+@media screen and (max-width: 900px){
+    .button-nav-bar{
+        left: 2%;
+    }
+}
+@keyframes animNavHidden{
+    from{
+        left: 0px;
+    }to{
+        left: -200px;
+    }
+}
+
+@keyframes animNavVisible{
+    from{
+        left: -200px;
+    }to{
+        left: 0px;
+    }
+}
+
+@keyframes animNavButtonLeft{
+    from{
+        left: 1%;
+    }to{
+        left: 19%;
+    }
+}
+
+@keyframes animNavButtonReft{
+    from{
+        left: 19%;
+    }to{
+        left: 1%;
     }
 }
