@@ -1,53 +1,10 @@
 /* Amine commence de coder */
+*{
+    margin: 0;
+    padding: 0;
+}
 header #content-navbar nav .items:last-child{
     width: 10%;
-}
-
-#content-button-toggle{
-    width: 30%;
-    height: 20px;
-    background-color: #e0e0e0;
-    border: solid #aeaeae;
-    border-radius: 60px;
-    margin-left: 1%;
-}
-#button-toggle{
-    width: 50%;
-    height: 100%;
-    background-color: #ffffff;
-    border-radius: 60px;
-}
-
-.anim-button-toggle-false{
-    animation-duration: 0.4s;
-    animation-name: animButtonToggleFalse;
-    animation-fill-mode: forwards;
-   
-}
-
-@keyframes animButtonToggleFalse{
-    from{
-        margin-left: 49%;
-    }
-    to{
-        margin-left: 1%;
-    }
-}
-
-.anim-button-toggle-true{
-    animation-duration: 0.4s;
-    animation-name: animButtonToggleTrue;
-    animation-fill-mode: forwards;
-   
-}
-
-@keyframes animButtonToggleTrue{
-    from{
-        margin-left: 1%;
-    }
-    to{
-        margin-left: 49%;
-    }
 }
 /* Amine finit de coder */
 
