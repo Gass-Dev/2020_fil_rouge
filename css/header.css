@@ -4,10 +4,11 @@ header{
     background-image: url(../assets/images/img-header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: -255px;
+    background-position-y: 100%;
 }
 .color{
-    height: 97.4%;
+    width: 100%;
+    height: 1000px;
     background-color: rgba(88, 215, 96, 0.5);
 }
 .container-nav{
@@ -55,4 +56,23 @@ header{
 }
 .container-rs a img{
     width: 2em;
+}
+
+@media screen and (max-width: 1700px) {
+    .container-rs{
+        right: 5%;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .container-logo{
+        left: 42%;
+    }
+    .container-options{
+        display: none;
+    }
+    .container-rs{
+        display: flex;
+        flex-direction: column;
+    }
 }
