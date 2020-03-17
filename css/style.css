@@ -1,53 +1,4 @@
-
-header{
-
-}
-header #content-navbar{
-
-}
-header #content-navbar{
-
-}
-header #content-navbar nav{
-    display: flex;
-    justify-content: space-between;
-}
-header #content-navbar nav .items{
-    
-}
-.Profils {
-    display: flex;
-    flex-direction: space-arround;
-}
-.Profil {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0 2%;
-}
-.Profil img{
-    border-radius: 50%;
-    border: solid;
-    border-color: green;
-}
-footer {
-    background-color: grey;
-    display: flex;
-    justify-content: space-between;
-}
-#LogoPanda{
-    max-width: 20%;
-    max-height: 20%;
-    width: auto;
-    height: auto;
-}
-#Adresse {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 30%;
-}
-
+/* Amine commence de coder */
 header #content-navbar nav .items:last-child{
     width: 10%;
 }
@@ -98,3 +49,39 @@ header #content-navbar nav .items:last-child{
         margin-left: 49%;
     }
 }
+/* Amine finit de coder */
+
+/* My commence de coder */
+.Profils {
+    display: flex;
+    flex-direction: space-arround;
+}
+.Profil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 2%;
+}
+.Profil img{
+    border-radius: 50%;
+    border: solid;
+    border-color: green;
+}
+footer {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+#LogoPanda{
+    max-width: 20%;
+    max-height: 20%;
+    width: auto;
+    height: auto;
+}
+#Adresse {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30%;
+}
+/* My finit de coder */
