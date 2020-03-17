@@ -19,19 +19,19 @@ header #content-navbar nav .items:last-child{
     justify-content: center;
     padding: 0 2%;
 }
-.Profil img{
-    border-radius: 50%;
-    border: solid;
-    border-color: green;
+.PhotoProfils {
+    max-width: 20vw;
+    max-height: 20vh;
+    width: auto;
+    height: auto;
 }
 footer {
     background-color: grey;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-#LogoPanda{
-    max-width: 20%;
-    max-height: 20%;
+.LogoPanda {
+    max-width: 15vw; 
     width: auto;
     height: auto;
 }
