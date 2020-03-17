@@ -5,8 +5,8 @@ header #content-navbar nav .items:last-child{
 
 #content-button-toggle{
     width: 30%;
+    height: 20px;
     background-color: #e0e0e0;
-    height: 100%;
     border: solid #aeaeae;
     border-radius: 60px;
     margin-left: 1%;
