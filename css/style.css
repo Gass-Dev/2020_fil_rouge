@@ -7,7 +7,9 @@ header #content-navbar nav .items:last-child{
     width: 10%;
 }
 /* Amine finit de coder */
-
+main{
+    width: 90%;
+}
 /* My commence de coder */
 .Profils {
     display: flex;

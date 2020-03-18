@@ -69,12 +69,20 @@ header{
     color: white;
     text-decoration: none;
     font-size: 1.1em;
-    padding-left: 40px;
     font-weight: bold;
     position: relative;
     top: 30%;
-        
+    margin-left: 40px;
+    padding: 0 0 5px 0;
+    width: max-content;
 }
+.container-options a:hover{
+    border-bottom: 3px solid;
+}
+.active-a{
+    border-bottom: 3px solid;
+}
+
 .container-rs{
     right: 20%;
     top: 8px;
@@ -116,9 +124,6 @@ header{
         position: relative;
         top: 5%;
     }
-    .container-options a:hover {
-        color: black;
-    }
     .container-rs{
         display: flex;
         flex-direction: column;
@@ -126,9 +131,6 @@ header{
     .button-nav-bar{
         display: initial;
         left: 12px;
-    }
-    .button-nav-bar:hover{
-        color: black;
     }
 }
 @media screen and (max-width: 900px){
@@ -168,4 +170,29 @@ header{
     }to{
         left: 12px;
     }
+}
+
+.container-agence{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -670px;
+    font-size: 5em;
+    color: white;
+    text-align: center;
+}
+.agence{
+    font-weight: bold;
+}
+.savoir{
+    font-size: 0.3em;
+    background-color: white;
+    width: 14%;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    height: 40px;
+    padding: 10px 0 0 0;
+    margin-top: 65px;
 }

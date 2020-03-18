@@ -18,12 +18,3 @@ button.addEventListener('click', function(){
         this.classList.add("anim-nav-button-rigth")
     }
 }, false)
-
-//document.addEventListener('click', function(){
-//    etat = false
-//    nav.classList.remove('anim-nav-visible')
-//    nav.classList.add('anim-nav-hidden')
-//
-//    button.classList.remove('anim-nav-button-left')
-//    button.classList.add("anim-nav-button-rigth")
-//}, true)
