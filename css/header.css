@@ -34,7 +34,7 @@ header{
     color: white;
     position: absolute;
     top: 40%;
-    left: 20px;
+    left: 12px;
     z-index: 10000;
 }
 .color{
@@ -125,7 +125,7 @@ header{
     }
     .button-nav-bar{
         display: initial;
-        left: 20px;
+        left: 12px;
     }
     .button-nav-bar:hover{
         color: black;
@@ -156,7 +156,7 @@ header{
 
 @keyframes animNavButtonLeft{
     from{
-        left: 12;
+        left: 12px;
     }to{
         left: 50px;
     }
