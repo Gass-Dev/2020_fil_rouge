@@ -1,21 +1,16 @@
-
-var button = document.getElementById('button-toggle')
-var contentButton = document.getElementById('content-button-toggle')
+var containerToggle = document.getElementById('container-toggle')
+var toggle = document.getElementById('toggle')
 var etat = false
-button.addEventListener('click', changeToggle)
 
-function changeToggle(){
+toggle.addEventListener('click', function(){
     etat = !etat
     if(etat){
-        this.classList.add("anim-button-toggle-true")
-        this.classList.remove("anim-button-toggle-false")
-        setTimeout(() => {
-            contentButton.style.backgroundColor = "#96ed98"
-        }, 250)
-        
+        this.classList.remove('anim-toggle-false')
+        this.classList.add('anim-toggle-true')
+        this.style.backgroundColor = '#5ddf5d'
     }else if(!etat){
-        this.classList.add("anim-button-toggle-false")
-        this.classList.remove("anim-button-toggle-true")
-        contentButton.style.backgroundColor = "#e0e0e0"
+        this.classList.remove('anim-toggle-true')
+        this.classList.add('anim-toggle-false')
+        this.style.backgroundColor = "rgb(184, 184, 184)"
     }
-}
+})
