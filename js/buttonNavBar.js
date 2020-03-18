@@ -1,8 +1,8 @@
 var button = document.getElementById('button-nav')
 var etat = false
+var nav = document.getElementById('cont-options')
 button.addEventListener('click', function(){
     etat = !etat
-    var nav = document.getElementById('cont-options')
     if(etat){
         nav.classList.remove('anim-nav-hidden')
         nav.classList.add('anim-nav-visible')
@@ -17,4 +17,13 @@ button.addEventListener('click', function(){
         this.classList.remove('anim-nav-button-left')
         this.classList.add("anim-nav-button-rigth")
     }
-})
+}, false)
+
+//document.addEventListener('click', function(){
+//    etat = false
+//    nav.classList.remove('anim-nav-visible')
+//    nav.classList.add('anim-nav-hidden')
+//
+//    button.classList.remove('anim-nav-button-left')
+//    button.classList.add("anim-nav-button-rigth")
+//}, true)

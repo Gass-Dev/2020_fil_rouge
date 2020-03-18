@@ -133,9 +133,11 @@ header{
 }
 @media screen and (max-width: 900px){
     .button-nav-bar{
-        left: 2%;
+        left: 12px;
     }
 }
+
+
 @keyframes animNavHidden{
     from{
         left: 0px;
@@ -154,16 +156,16 @@ header{
 
 @keyframes animNavButtonLeft{
     from{
-        left: 1%;
+        left: 12;
     }to{
-        left: 19%;
+        left: 50px;
     }
 }
 
 @keyframes animNavButtonReft{
     from{
-        left: 19%;
+        left: 50px;
     }to{
-        left: 1%;
+        left: 12px;
     }
 }
