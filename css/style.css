@@ -9,33 +9,105 @@ header #content-navbar nav .items:last-child{
 /* Amine finit de coder */
 main{
     width: 90%;
+    padding: 5%;
 }
 /* My commence de coder */
-.Profils {
-    display: flex;
-    flex-direction: space-arround;
+.relativeTop42pxBottom42px {
+    position: relative;
+    top: 42px;
+    bottom: 42px;
 }
-.Profil {
+.bold {
+    font-weight: bold;
+}
+.fontSize42px {
+    font-size: 42px;
+}
+.fontSize62px {
+    font-size: 62px;
+}
+.fontSize24px {
+    font-size: 24px;
+}
+.fontSize26px {
+    font-size: 26px;
+}
+.fontSize16px {
+    font-size: 16px;
+}
+.center {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:  24px 3vh;
+}
+.padding42px {
+    padding: 42px;
+}
+.flexSpace-around {
+    display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    justify-content: center;
-    padding: 0 2%;
 }
-.PhotoProfils {
-    max-width: 20vw;
-    max-height: 20vh;
+.flexRow {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.size662x254px {
+    max-width: 662px;
+    max-height: 254px;
     width: auto;
     height: auto;
+}
+.size80x80px {
+    max-width: 80px;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+}
+.size45x45px {
+    max-width: 45px;
+    max-height: 45px;
+    width: auto;
+    height: auto;
+}
+.size899x505px {
+    max-width: 899px;
+    max-height: 505px;
+    width: auto;
+    height: auto;
+}
+.borderGreen {
+    border-style: solid;
+    border-color: #6CBB4D;
+    border-width: 2px;
+}
+.card {
+    width: 560px;
+    height: 526px;
+    background: linear-gradient(180deg, #BEF164, #6CBB4D);
+    padding: 40px;
+    border-radius: 20px;
+    margin: 20px;
+}
+hr {
+    border-style: solid;
+    color: white;
+    width: 300px;
+    align-self: start;
+    border-width: 3px;
+    position: relative;
+    left: -40px;
 }
 footer {
     background-color: grey;
     display: flex;
     justify-content: space-around;
 }
-.LogoPanda {
-    max-width: 15vw; 
-    width: auto;
-    height: auto;
+.LogoPandaWeb {
+    width: 145px;
+    height: 145px;
 }
 #Adresse {
     display: flex;
