@@ -12,11 +12,8 @@ main{
     padding: 5%;
 }
 /* My commence de coder */
-.relativeTop42pxBottom42px {
-    position: relative;
-    top: 42px;
-    bottom: 42px;
-}
+
+/* font */
 .bold {
     font-weight: bold;
 }
@@ -35,25 +32,8 @@ main{
 .fontSize16px {
     font-size: 16px;
 }
-.center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding:  24px 3vh;
-}
-.padding42px {
-    padding: 42px;
-}
-.flexSpace-around {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.flexRow {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-}
+
+/* size: img, icon */
 .size662x254px {
     max-width: 662px;
     max-height: 254px;
@@ -78,6 +58,34 @@ main{
     width: auto;
     height: auto;
 }
+
+/* Position */
+.relativeTop42pxBottom42px {
+    position: relative;
+    top: 42px;
+    bottom: 42px;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:  24px 3vh;
+}
+.flexSpace-around {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.flexRow {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+/* L'autres desins */
+.padding42px {
+    padding: 42px;
+}
 .borderGreen {
     border-style: solid;
     border-color: #6CBB4D;
@@ -100,6 +108,8 @@ hr {
     position: relative;
     left: -40px;
 }
+/* My finit de coder */
+
 footer {
     background-color: grey;
     display: flex;
@@ -115,4 +125,3 @@ footer {
     justify-content: center;
     width: 30%;
 }
-/* My finit de coder */
