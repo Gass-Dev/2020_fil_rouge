@@ -7,29 +7,26 @@ header #content-navbar nav .items:last-child{
     width: 10%;
 }
 /* Amine finit de coder */
-main{
-    width: 90%;
-    padding: 5%;
-}
+
 /* My commence de coder */
 
 /* font */
 .bold {
     font-weight: bold;
 }
-.fontSize42px {
-    font-size: 42px;
-}
-.fontSize62px {
+h2{
     font-size: 62px;
 }
-.fontSize24px {
-    font-size: 24px;
+h3 {
+    font-size: 42px;
 }
-.fontSize26px {
+h4 {
     font-size: 26px;
 }
-.fontSize16px {
+h5 {
+    font-size: 24px;
+}
+p {
     font-size: 16px;
 }
 
@@ -39,6 +36,7 @@ main{
     max-height: 254px;
     width: auto;
     height: auto;
+    padding-left: 120px;
 }
 .size80x80px {
     max-width: 80px;
@@ -57,6 +55,8 @@ main{
     max-height: 200px;
     width: auto;
     height: auto;
+    position: relative;
+    bottom: -90px;
 }
 
 /* Position */
@@ -65,57 +65,97 @@ main{
     top: 42px;
     bottom: 42px;
 }
-.center {
+.columnAlignCenter {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:  24px 3vh;
 }
-.flexSpace-around {
+.aroundWrap {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.flexRow {
+.aroundRow {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
 }
+.columnCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* L'autres desins */
-.padding42px {
-    padding: 42px;
+.width25vw {
+    width : 25vw;
+}
+.margin42px {
+    margin: 42px 0 42px 0;
+}
+.padding120px{
+    padding: 120px;
+}
+.padTop80 {
+    padding-top: 80px;
+}
+.padTop60 {
+    padding-top: 60px;
+}
+.padTop20 {
+    padding-top: 20px;
+}
+.padRL20px {
+    padding: 0 20px;
 }
 .borderGreen {
-    border-style: solid;
-    border-color: #6CBB4D;
-    border-width: 2px;
+    border: 2px solid #6CBB4D;
+}
+.team {
+    padding: 120px 80px 0 80px;
+    border-top: 2px solid #6CBB4D
 }
 .card {
     width: 560px;
-    height: 526px;
+    height: 380px;
     background: linear-gradient(180deg, #BEF164, #6CBB4D);
-    padding: 40px;
+    padding: 36px 0 0 40px;
     border-radius: 20px;
     margin: 20px;
+}
+.personne {
+    padding: 10px 0 10px 0;
 }
 hr {
     border-style: solid;
     color: white;
-    width: 300px;
+    width: 150px;
     align-self: start;
-    border-width: 3px;
+    border-width: 2px;
     position: relative;
     left: -40px;
+}
+.presentPer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: -40px;
 }
 /* My finit de coder */
 
 footer {
-    background-color: grey;
+    background: linear-gradient(180deg, #BEF164, #6CBB4D);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 100%;
+    height: 432px;
 }
-.LogoPandaWeb {
+#LogoPandaWeb {
     width: 145px;
     height: 145px;
 }
@@ -123,5 +163,4 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 30%;
 }
