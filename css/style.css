@@ -60,11 +60,6 @@ p {
 }
 
 /* Position */
-.relativeTop42pxBottom42px {
-    position: relative;
-    top: 42px;
-    bottom: 42px;
-}
 .columnAlignCenter {
     display: flex;
     flex-direction: column;
@@ -85,16 +80,12 @@ p {
     flex-direction: column;
     justify-content: center;
 }
-.flexBetween {
-    display: flex;
-    justify-content: space-between;
-}
 
 /* L'autres desins */
 .width25vw {
     width : 25vw;
 }
-.margin42px {
+.margin42px0 {
     margin: 42px 0 42px 0;
 }
 .padding120px{
