@@ -1,0 +1,106 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+
+  margin:0;
+  padding:0;
+  height: 100%;
+
+}
+
+.slider{
+  height: 100vh;
+  width: 100vw;
+  
+
+}
+
+.carousel{
+width: 400px;
+height: 500px;
+position: relative;
+top:50%;
+left:50%;
+transform: translateX(-50%) translateY(-50%);
+
+perspective: 1000px;
+transform-style: preserve-3d;
+
+
+
+}
+
+.carousel .item {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  transition: 1s;
+
+  
+}
+
+.item:nth-child(1){
+  transform: rotateY(0deg) translate3d(0px, 0px, 100px) ;
+
+
+
+
+}
+
+.item:nth-child(2){
+  transform: rotateY(40deg)  translate3d(300px, 0px, 200px)  ; 
+
+
+
+
+}
+
+.item:nth-child(3){
+  transform: rotateY(320deg) translate3d(-300px, 0px, 200px) ;
+
+
+
+}
+
+#slider{
+  float: right
+  
+}
+
+/*Personalisation du slider */
+        /*Firefox*/
+#slider::-moz-range-track {
+  height: 100%;
+  border: none;
+  border-radius: 0;
+  background-color: #00FF00;  
+}
+
+#slider::-moz-range-thumb {
+  height: 100px; 
+  width: 121px;
+  border: none; 
+  background: no-repeat url("../assets/images/slider-panda.png");
+
+}
+
+
+#slider::-webkit-slider-runnable-track {
+  height: 100%;
+  border: none;
+  border-radius: 0;
+  background-color: #00FF00;  /* supprimé définie sur l'input */
+}
+/* le curseur */
+#slider::-webkit-slider-thumb {
+  height: 100px; 
+  width: 121px;
+  border: none; 
+  background: no-repeat url("../assets/images/slider-panda.png");
+
+
+}
