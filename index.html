@@ -1,207 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/button_toggle.css">
-    <link rel="shortcut icon" href="assets/images/Favicon_PandaWeb.png" type="image/x-icon">
-    <title>Panda</title>
-</head>
-<body>
-    <header>
-        <div class="color" id="color">
-            <div class="container-nav">
-                <i id="button-nav" class="fa fa-align-justify button-nav-bar"></i>
-                <nav>
-                    <div class="container-logo container">
-                        <img src="assets/images/logo.png" alt="logo panda">
-                    </div>
-                    <div id="cont-options" class="container-options container">
-                        <a class="active-a" href="#">Accuil</a>
-                        <a href="#">L'agence</a>
-                        <a href="#">Nos offres</a>
-                        <a href="#">Notre team</a>
-                        <a href="#">Contact</a>
-                    </div>
-                    <div class="container-rs container">
-                        <a class="item-rs" href="#"><img src="assets/images/facebook.svg" alt=""></a>
-                        <a class="item-rs" href="#"><img src="assets/images/instagram.svg" alt=""></a>
-                        <a class="item-rs" href="#"><img src="assets/images/github.svg" alt=""></a>
-                        <a class="item-rs" href="#"><img src="assets/images/linkedin.svg" alt=""></a>
-                        <div id="container-toggle" class="container-toggle item-rs">
-                            <div id='toggle' class="toggle"></div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/button_toggle.css">
+        <link rel="shortcut icon" href="assets/images/Favicon_PandaWeb.png" type="image/x-icon">
+        <title>Panda</title>
+    </head>
+    <body>
+        <!---
+            header qui contien tout le haut de la page
+        --> 
+        <header>
+            <!---
+                div color cree pour l'opacity en vert
+            -->
+            <div class="color" id="color">
+                <!---
+                    div container-nav cree pour pouvoir bouger sont contenu plus facilement
+                -->
+                <div class="container-nav">
+                    <!---
+                        i button-nav c'est le hamburger qui est a display none par defaut
+                    -->
+                    <i id="button-nav" class="fa fa-align-justify button-nav-bar"></i>
+                    <!--
+                        nav display flex
+                    -->
+                    <nav>
+                        <!--
+                            div  container-logo contien l'image du logo
+                        -->
+                        <div class="container-logo container">
+                            <img src="assets/images/logo.png" alt="logo panda">
                         </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <div class="container-agence">
-            <div class="perfect">Perfect</div>
-            <div class="agence">Agence Web</div>
-            <div class="savoir">En savoir +</div>
-        </div>
-    </header>
-    <main>
-        <!-- Notre Agence -->
-        <div class="padding120px">
-            <h3 class="bold columnAlignCenter">Notre Agence</h3>
-            <h2 class="bold padTop80">On s'est dit qu'être la team PANDA,<br>c'était pas mal.</h2>
-            <div class="aroundRow">
-                <div class="columnCenter">
-                    <h5>Nous sommes une agence créative & technique, amoureux des pandas et du digital.</h5>
-                    <h5 class="padTop20">Notre métier nous tient à coeur et le mentoring aussi. C'est pourquoi, nous accompagnons des apprenants et des micro-entreprises à s'ouvrir au digital. Nous nous engageons à fournir à nos clients un service exceptionnel tout en offrant à nos employés la meilleure formation possible.</h5>
-                </div>
-                <img class="size662x254px" src="assets/images/image-Div1.jpg" alt="Notre Agence">
-            </div>
-        </div>
-        <!-- Conception web et applications créatives-->
-        <div class = "padding120px borderGreen">
-            <h3 class="bold columnAlignCenter">CONCEPTION WEB ET APPLICATIONS CRÉATIVES</h3>
-            <div class="aroundRow">
-                <div class="columnAlignCenter width25vw">
-                    <div class="padTop80 columnAlignCenter">
-                        <img class="size80x80px" src="assets/icons/icons8-panneau-de-stratégie-100.png" alt="Strategie">
-                        <h4 class="bold padTop20">STRATEGIE</h4>
-                    </div>
-                    <p class="padTop60">Quelque chose doit être changé ou quelque chose ne fonctionne pas tout à fait comme vous l'aviez envisagé?</p>
-                </div>
-                <div class="columnAlignCenter width25vw">
-                    <div class="padTop80 columnAlignCenter">
-                        <img class="size80x80px" src="assets/icons/icons8-web-100.png" alt="Design moderne">
-                        <h4 class="bold padTop20">DESIGN MODERNE</h4>
-                    </div>
-                    <p class="padTop60">Quelque chose doit être changé ou quelque chose ne fonctionne pas tout à fait comme vous l'aviez envisagé?</p>
-                </div>
-                <div class="columnAlignCenter width25vw">
-                    <div class="padTop80 columnAlignCenter">
-                        <img class="size80x80px" src="assets/icons/icons8-google-classroom-100.png" alt="Produit digital">
-                        <h4 class="bold padTop20">PRODUIT DIGITAL</h4>
-                    </div>
-                    <p class="padTop60">Quelque chose doit être changé ou quelque chose ne fonctionne pas tout à fait comme vous l'aviez envisagé?</p>
+                        <!--
+                            div cont-options contient les boutton de la nav bar
+                            display flex
+                            flex-direction row avec des grands ecrant et column quand l'ecrant est trop petit
+                        -->
+                        <div id="cont-options" class="container-options container">
+                            <a class="active-a" href="#">Accuil</a>
+                            <a href="#">L'agence</a>
+                            <a href="#">Nos offres</a>
+                            <a href="#">Notre team</a>
+                            <a href="#">Contact</a>
+                        </div>
+                        <!--
+                            div cont-rs contient les boutton des reseaux sociaux de la nav bar
+                            display flex
+                            flex-direction row avec des grands ecrant et column quand l'ecrant est trop petit
+                        -->
+                        <div class="container-rs container">
+                            <a class="item-rs" href="#"><img src="assets/images/facebook.svg" alt=""></a>
+                            <a class="item-rs" href="#"><img src="assets/images/instagram.svg" alt=""></a>
+                            <a class="item-rs" href="#"><img src="assets/images/github.svg" alt=""></a>
+                            <a class="item-rs" href="#"><img src="assets/images/linkedin.svg" alt=""></a>
+                            <div id="container-toggle" class="container-toggle item-rs">
+                                <div id='toggle' class="toggle"></div>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
             </div>
-        </div>
-        <!-- Nos Offres -->
-        <!-- Nos Offres -->
-        <div class = "margin42px0">
-    
-            <div class="slider">
-                <div class="carousel">
-                    <img class="item" src="assets/images/dessin.svg">
-                    <img class="item" src="assets/images/dessin2.svg">
-                    <img class="item" src="assets/images/dessin3.svg">
-                </div>
-      
-      
-            <input type="range" min="1" max="3" value="2"  id="slider">
+            <div class="container-agence">
+                <div class="perfect">Perfect</div>
+                <div class="agence">Agence Web</div>
+                <div class="savoir">En savoir +</div>
             </div>
+        </header>
+        <main>
+            <!-- Notre Agence -->
+            <div class="padding120px">
+                <h3 class="bold columnAlignCenter">Notre Agence</h3>
+                <h2 class="bold padTop80">On s'est dit qu'être la team PANDA,<br>c'était pas mal.</h2>
+                <div class="aroundRow">
+                    <div class="columnCenter">
+                        <h5>Nous sommes une agence créative & technique, amoureux des pandas et du digital.</h5>
+                        <h5 class="padTop20">Notre métier nous tient à coeur et le mentoring aussi. C'est pourquoi, nous accompagnons des apprenants et des micro-entreprises à s'ouvrir au digital. Nous nous engageons à fournir à nos clients un service exceptionnel tout en offrant à nos employés la meilleure formation possible.</h5>
+                    </div>
+                    <img class="size662x254px" src="assets/images/image-Div1.jpg" alt="Notre Agence">
+                </div>
+            </div>
+            <!-- Conception web et applications créatives-->
+            <div class = "padding120px borderGreen">
+                <h3 class="bold columnAlignCenter">CONCEPTION WEB ET APPLICATIONS CRÉATIVES</h3>
+                <div class="aroundRow">
+                    <div class="columnAlignCenter width25vw">
+                        <div class="padTop80 columnAlignCenter">
+                            <img class="size80x80px" src="assets/icons/icons8-panneau-de-stratégie-100.png" alt="Strategie">
+                            <h4 class="bold padTop20">STRATEGIE</h4>
+                        </div>
+                        <p class="padTop60">Quelque chose doit être changé ou quelque chose ne fonctionne pas tout à fait comme vous l'aviez envisagé?</p>
+                    </div>
+                    <div class="columnAlignCenter width25vw">
+                        <div class="padTop80 columnAlignCenter">
+                            <img class="size80x80px" src="assets/icons/icons8-web-100.png" alt="Design moderne">
+                            <h4 class="bold padTop20">DESIGN MODERNE</h4>
+                        </div>
+                        <p class="padTop60">Quelque chose doit être changé ou quelque chose ne fonctionne pas tout à fait comme vous l'aviez envisagé?</p>
+                    </div>
+                    <div class="columnAlignCenter width25vw">
+                        <div class="padTop80 columnAlignCenter">
+                            <img class="size80x80px" src="assets/icons/icons8-google-classroom-100.png" alt="Produit digital">
+                            <h4 class="bold padTop20">PRODUIT DIGITAL</h4>
+                        </div>
+                        <p class="padTop60">Quelque chose doit être changé ou quelque chose ne fonctionne pas tout à fait comme vous l'aviez envisagé?</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Nos Offres -->
+            <!-- Nos Offres -->
+            <div class = "margin42px0">
+        
+                <div class="slider">
+                    <div class="carousel">
+                        <img class="item" src="assets/images/dessin.svg">
+                        <img class="item" src="assets/images/dessin2.svg">
+                        <img class="item" src="assets/images/dessin3.svg">
+                    </div>
+        
+        
+                <input type="range" min="1" max="3" value="2"  id="slider">
+                </div>
 
-        </div>
-        <!-- Notre team -->
-        <div class = "team">
-            <h3 class="bold columnAlignCenter">Une incroyable team</h3>
-            <div class="aroundWrap padding120px">
-                <!-- Card Gween -->
-                <div class="card">
-                    <p class="bold personne">Chef de projet & <br> Developpeur Fullstack - Javascript</p>
-                    <h4 class="bold personne">Gwenaëlle FOUQUET</h4>
-                    <hr>
-                    <div class="aroundRow">
-                        <div class="presentPer">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint itaque eaque temporibus reprehenderit voluptatibus veniam quos aperiam illum ipsum placeat inventore, quibusdam molestiae neque velit repellat non obcaecati explicabo dolore!</p>
-                            <div>
-                                <a href="https://fr.linkedin.com"><img class="size45x45px" src="assets/icons/linkedin.svg" alt="linkedin"></a>
-                                <a href="https://github.com/Gass-Dev"><img class="size45x45px padRL20px" src="assets/icons/github.svg" alt="github"></a>
-                                <a href="https://www.behance.net"><img class="size45x45px" src="assets/icons/behance-network.svg" alt="behance-network"></a>
+            </div>
+            <!-- Notre team -->
+            <div class = "team">
+                <h3 class="bold columnAlignCenter">Une incroyable team</h3>
+                <div class="aroundWrap padding120px">
+                    <!-- Card Gween -->
+                    <div class="card">
+                        <p class="bold personne">Chef de projet & <br> Developpeur Fullstack - Javascript</p>
+                        <h4 class="bold personne">Gwenaëlle FOUQUET</h4>
+                        <hr>
+                        <div class="aroundRow">
+                            <div class="presentPer">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint itaque eaque temporibus reprehenderit voluptatibus veniam quos aperiam illum ipsum placeat inventore, quibusdam molestiae neque velit repellat non obcaecati explicabo dolore!</p>
+                                <div>
+                                    <a href="https://fr.linkedin.com"><img class="size45x45px" src="assets/icons/linkedin.svg" alt="linkedin"></a>
+                                    <a href="https://github.com/Gass-Dev"><img class="size45x45px padRL20px" src="assets/icons/github.svg" alt="github"></a>
+                                    <a href="https://www.behance.net"><img class="size45x45px" src="assets/icons/behance-network.svg" alt="behance-network"></a>
+                                </div>
                             </div>
+                            <img class="size300x200px" src="assets/images/avatar-Gwen.png" alt="Avatar Gwen">
                         </div>
-                        <img class="size300x200px" src="assets/images/avatar-Gwen.png" alt="Avatar Gwen">
+                    </div>
+                    <!-- Card Lorris -->
+                    <div class="card">
+                        <p class="bold personne">Developpeur Fullstack - Javascript</p>
+                        <h4 class="bold personne">Lorris DHEDIN</h4>
+                        <hr>
+                        <div class="aroundRow">
+                            <div class="presentPer">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint itaque eaque temporibus reprehenderit voluptatibus veniam quos aperiam illum ipsum placeat inventore, quibusdam molestiae neque velit repellat non obcaecati explicabo dolore!</p>
+                                <div>
+                                    <a href="https://fr.linkedin.com"><img class="size45x45px" src="assets/icons/linkedin.svg" alt="linkedin"></a>
+                                    <a href="https://github.com/yourownway"><img class="size45x45px padRL20px" src="assets/icons/github.svg" alt="github"></a>
+                                    <a href="https://www.behance.net"><img class="size45x45px" src="assets/icons/behance-network.svg" alt="behance-network"></a>
+                                </div>
+                            </div>
+                            <img class="size300x200px" src="assets/images/avatar-Gwen.png" alt="Avatar Lorris">
+                        </div>
+                    </div>
+                    <!-- Card My -->
+                    <div class="card">
+                        <p class="bold personne">Developpeur Fullstack - Javascript</p>
+                        <h4 class="bold personne">Thi The My VO</h4>
+                        <hr>
+                        <div class="aroundRow">
+                            <div class="presentPer">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint itaque eaque temporibus reprehenderit voluptatibus veniam quos aperiam illum ipsum placeat inventore, quibusdam molestiae neque velit repellat non obcaecati explicabo dolore!</p>
+                                <div>
+                                    <a href="https://fr.linkedin.com"><img class="size45x45px" src="assets/icons/linkedin.svg" alt="linkedin"></a>
+                                    <a href="https://github.com/My-VO"><img class="size45x45px padRL20px" src="assets/icons/github.svg" alt="github"></a>
+                                    <a href="https://www.behance.net"><img class="size45x45px" src="assets/icons/behance-network.svg" alt="behance-network"></a>
+                                </div>
+                            </div>
+                            <img class="size300x200px" src="assets/images/avatar_My.png" alt="Avatar My">
+                        </div>
+                    </div>
+                    <!-- Card Amine -->
+                    <div class="card">
+                        <p class="bold personne">Developpeur Fullstack - Javascript</p>
+                        <h4 class="bold personne">Amine HADEF</h4>
+                        <hr>
+                        <div class="aroundRow">
+                            <div class="presentPer">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint itaque eaque temporibus reprehenderit voluptatibus veniam quos aperiam illum ipsum placeat inventore, quibusdam molestiae neque velit repellat non obcaecati explicabo dolore!</p>
+                                <div>
+                                    <a href="https://fr.linkedin.com"><img class="size45x45px" src="assets/icons/linkedin.svg" alt="linkedin"></a>
+                                    <a href="https://github.com/aminehadefdev"><img class="size45x45px padRL20px" src="assets/icons/github.svg" alt="github"></a>
+                                    <a href="https://www.behance.net"><img class="size45x45px" src="assets/icons/behance-network.svg" alt="behance-network"></a>
+                                </div>
+                            </div>
+                            <img class="size300x200px" src="assets/images/avatar-amine.png" alt="Avatar Amine">
+                        </div>
                     </div>
                 </div>
-                <!-- Card Lorris -->
-                <div class="card">
-                    <p class="bold personne">Developpeur Fullstack - Javascript</p>
-                    <h4 class="bold personne">Lorris DHEDIN</h4>
-                    <hr>
-                    <div class="aroundRow">
-                        <div class="presentPer">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint itaque eaque temporibus reprehenderit voluptatibus veniam quos aperiam illum ipsum placeat inventore, quibusdam molestiae neque velit repellat non obcaecati explicabo dolore!</p>
-                            <div>
-                                <a href="https://fr.linkedin.com"><img class="size45x45px" src="assets/icons/linkedin.svg" alt="linkedin"></a>
-                                <a href="https://github.com/yourownway"><img class="size45x45px padRL20px" src="assets/icons/github.svg" alt="github"></a>
-                                <a href="https://www.behance.net"><img class="size45x45px" src="assets/icons/behance-network.svg" alt="behance-network"></a>
-                            </div>
-                        </div>
-                        <img class="size300x200px" src="assets/images/avatar-Gwen.png" alt="Avatar Lorris">
-                    </div>
-                </div>
-                <!-- Card My -->
-                <div class="card">
-                    <p class="bold personne">Developpeur Fullstack - Javascript</p>
-                    <h4 class="bold personne">Thi The My VO</h4>
-                    <hr>
-                    <div class="aroundRow">
-                        <div class="presentPer">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint itaque eaque temporibus reprehenderit voluptatibus veniam quos aperiam illum ipsum placeat inventore, quibusdam molestiae neque velit repellat non obcaecati explicabo dolore!</p>
-                            <div>
-                                <a href="https://fr.linkedin.com"><img class="size45x45px" src="assets/icons/linkedin.svg" alt="linkedin"></a>
-                                <a href="https://github.com/My-VO"><img class="size45x45px padRL20px" src="assets/icons/github.svg" alt="github"></a>
-                                <a href="https://www.behance.net"><img class="size45x45px" src="assets/icons/behance-network.svg" alt="behance-network"></a>
-                            </div>
-                        </div>
-                        <img class="size300x200px" src="assets/images/avatar_My.png" alt="Avatar My">
-                    </div>
-                </div>
-                <!-- Card Amine -->
-                <div class="card">
-                    <p class="bold personne">Developpeur Fullstack - Javascript</p>
-                    <h4 class="bold personne">Amine HADEF</h4>
-                    <hr>
-                    <div class="aroundRow">
-                        <div class="presentPer">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint itaque eaque temporibus reprehenderit voluptatibus veniam quos aperiam illum ipsum placeat inventore, quibusdam molestiae neque velit repellat non obcaecati explicabo dolore!</p>
-                            <div>
-                                <a href="https://fr.linkedin.com"><img class="size45x45px" src="assets/icons/linkedin.svg" alt="linkedin"></a>
-                                <a href="https://github.com/aminehadefdev"><img class="size45x45px padRL20px" src="assets/icons/github.svg" alt="github"></a>
-                                <a href="https://www.behance.net"><img class="size45x45px" src="assets/icons/behance-network.svg" alt="behance-network"></a>
-                            </div>
-                        </div>
-                        <img class="size300x200px" src="assets/images/avatar-amine.png" alt="Avatar Amine">
-                    </div>
+                
+            </div>
+        </main>
+        <footer>
+            <div id="Adresse">
+                <img id="LogoPandaWeb" src="assets/images/logo.png" alt="Logo Panda Web">
+                <p>21 Rue de la Vanne</br>92120 Montrouge</p>
+            </div>
+            <div id="Decouvrez-nous">
+                <h3>Découvrez-nous</h3>
+                <a href="#">Accueil</a>
+                <a href="#">L’agence</a>
+                <a href="#">La team</a>
+                <a href="#">Nos Offres</a>
+                <a href="#">Contact</a>
+            </div>
+            <div id="Contactez-nous">
+                <h3>Contactez-nous</h3>
+                <p>01 00 00 00 00</p>
+                <p>contact@pandaweb.com</p>
+                <p>jobs@pandaweb.com</p>
+                <div class = "RS">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
                 </div>
             </div>
-            
-        </div>
-    </main>
-    <footer>
-        <div id="Adresse">
-            <img id="LogoPandaWeb" src="assets/images/logo.png" alt="Logo Panda Web">
-            <p>21 Rue de la Vanne</br>92120 Montrouge</p>
-        </div>
-        <div id="Decouvrez-nous">
-            <h3>Découvrez-nous</h3>
-            <a href="#">Accueil</a>
-            <a href="#">L’agence</a>
-            <a href="#">La team</a>
-            <a href="#">Nos Offres</a>
-            <a href="#">Contact</a>
-        </div>
-        <div id="Contactez-nous">
-            <h3>Contactez-nous</h3>
-            <p>01 00 00 00 00</p>
-            <p>contact@pandaweb.com</p>
-            <p>jobs@pandaweb.com</p>
-            <div class = "RS">
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-            </div>
-        </div>
-    </footer>
-    <script src="js/toggle.js"></script>
-    <script src="js/buttonNavBar.js"></script>
-</body>
+        </footer>
+        <script src="js/toggle.js"></script>
+        <script src="js/buttonNavBar.js"></script>
+    </body>
 </html>
