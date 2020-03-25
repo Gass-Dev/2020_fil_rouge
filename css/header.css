@@ -150,10 +150,43 @@ header{
         display: initial;
         left: 12px;
     }
+    .container-toggle {
+        top: 35%;
+        left: 0;
+    }
+    .container-rs{
+        right: -200px;
+    }
 }
 @media screen and (max-width: 900px){
     .button-nav-bar{
         left: 12px;
+    }
+}
+
+.anim-rs-visible{
+    animation-duration: 0.4s;
+    animation-name: anineRsVisible;
+    animation-fill-mode: forwards;
+}
+@keyframes anineRsVisible{
+    form{
+        right: -200px;
+    }to{
+        right: 35px;
+    }
+}
+
+.anim-rs-hidden{
+    animation-duration: 0.4s;
+    animation-name: animeRsHidden;
+    animation-fill-mode: forwards;
+}
+@keyframes animeRsHidden{
+    form{
+        right: 35px;
+    }to{
+        right: -200px;
     }
 }
 
