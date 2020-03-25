@@ -7,7 +7,7 @@ toggle.addEventListener('click', function(){
     if(etat){
         this.classList.remove('anim-toggle-false')
         this.classList.add('anim-toggle-true')
-        this.style.backgroundColor = '#5ddf5d'
+        this.style.backgroundColor = '#090D0F'
     }else if(!etat){
         this.classList.remove('anim-toggle-true')
         this.classList.add('anim-toggle-false')

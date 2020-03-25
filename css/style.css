@@ -40,7 +40,7 @@ p {
     width: auto;
     height: auto;
 }
-.size-45x45px {
+.size45x45px {
     max-height: 45px;
     width: auto;
     height: auto;
@@ -156,4 +156,5 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    color: white;
 }
