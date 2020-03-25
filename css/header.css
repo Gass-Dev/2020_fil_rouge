@@ -145,6 +145,7 @@ header{
     .container-rs{
         display: flex;
         flex-direction: column;
+        top: 60px;
     }
     .button-nav-bar{
         display: initial;
@@ -178,6 +179,7 @@ header{
 }
 
 .anim-rs-hidden{
+    right: 0;
     animation-duration: 0.4s;
     animation-name: animeRsHidden;
     animation-fill-mode: forwards;
