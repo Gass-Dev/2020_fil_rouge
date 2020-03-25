@@ -40,6 +40,7 @@ transform-style: preserve-3d;
 
   transition: 1s;
 
+
   
 }
 
@@ -93,8 +94,7 @@ transform-style: preserve-3d;
   height: 100%;
   border: none;
   border-radius: 0;
-  background-color: #00FF00;  /* supprimé définie sur l'input */
-}
+  background-color: #00FF00;  
 /* le curseur */
 #slider::-webkit-slider-thumb {
   height: 100px; 
