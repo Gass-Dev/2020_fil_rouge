@@ -177,15 +177,12 @@ footer {
 }
 
 .container-img-bambou{
-    background-color: red;
-    width: 761px;
-    height: 88px;
+    width: 70%;
     position: relative;
     left: -900px;
 }
 .container-img-bambou img{
-    width: 761px;
-    height: 88px;
+    width: 100%;
     transform: rotate(175deg);
 }
 .anim-bambou-visible{
@@ -202,10 +199,12 @@ footer {
 }
 
 .anim-bambou-hidden{
+    left: 0;
     animation-duration: 0.4s;
     animation-name: animBambouHidden;
     animation-fill-mode: forwards;
 }
+
 @keyframes animBambouHidden{
     form{
         left: 0px;
