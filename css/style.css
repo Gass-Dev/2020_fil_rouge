@@ -29,32 +29,27 @@ p {
 }
 
 /* size: img, icon */
-.size662x254px {
-    max-width: 662px;
-    max-height: 254px;
-    width: auto;
-    height: auto;
+.size-562x264px {    
+    width: 562px;
+    height: 264px;
     padding-left: 120px;
 }
-.size80x80px {
+.size-80x80px {
     max-width: 80px;
     max-height: 80px;
     width: auto;
     height: auto;
 }
-.size45x45px {
-    max-width: 45px;
+.size-45x45px {
     max-height: 45px;
     width: auto;
     height: auto;
 }
-.size300x200px {
-    max-width: 300px;
-    max-height: 200px;
+.heigh-200px {
+    height: 200px;
     width: auto;
-    height: auto;
     position: relative;
-    bottom: -90px;
+    bottom: -45px;
 }
 
 /* Position */
@@ -98,7 +93,7 @@ p {
 .padTop20 {
     padding-top: 20px;
 }
-.padRL20px {
+.padding-RL20px {
     padding: 0 20px;
 }
 .borderGreen {
@@ -118,6 +113,7 @@ p {
 }
 .personne {
     padding: 10px 0 10px 0;
+    height: 50px;
 }
 hr {
     border-style: solid;
@@ -134,9 +130,17 @@ hr {
     justify-content: space-between;
     margin-top: 40px;
     margin-bottom: -40px;
+    height: 184px;
 }
-
-
+.iconsPersonne {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    left: -20px;
+}
 footer {
     background: linear-gradient(180deg, #BEF164, #6CBB4D);
     display: flex;
