@@ -158,3 +158,48 @@ footer {
     justify-content: center;
     color: white;
 }
+.change-notre-agence{
+    background-color: black;
+    color: white;
+}
+.change-color-h3{
+    color: #BEF164;   
+}
+
+.container-img-bambou{
+    background-color: red;
+    width: 761px;
+    height: 88px;
+    position: relative;
+    left: -900px;
+}
+.container-img-bambou img{
+    width: 761px;
+    height: 88px;
+    transform: rotate(175deg);
+}
+.anim-bambou-visible{
+    animation-duration: 0.4s;
+    animation-name: animBambouVisible;
+    animation-fill-mode: forwards;
+}
+@keyframes animBambouVisible{
+    form{
+        left: -900px;
+    }to{
+        left: 0px;
+    }
+}
+
+.anim-bambou-hidden{
+    animation-duration: 0.4s;
+    animation-name: animBambouHidden;
+    animation-fill-mode: forwards;
+}
+@keyframes animBambouHidden{
+    form{
+        left: 0px;
+    }to{
+        left: -900px;
+    }
+}
