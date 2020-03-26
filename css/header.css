@@ -251,45 +251,34 @@ header{
     .mac-gyver {
         visibility: hidden;
     }
-    
 
 }
 @media (max-width: 1200px){
+    .carousel{
+        display: none;
+    }
+    #slider{
+        display: none;
+    }
+    .mac-gyver {
+    visibility: visible;
+    position: relative;
 
-.carousel{
-    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    }
+    .mac-gyver img{
+        max-width: 335px;
+        height: auto;
+    }
+
+    .mac-gyver button {
+        height: 40px;
+    }
 }
-#slider{
-    display: none;
-}
-.mac-gyver {
-visibility: visible;
-position: relative;
-
-margin-left: auto;
-margin-right: auto;
-width: 400px;
-display: flex;
-align-items: center;
-}
-.mac-gyver img{
-    max-width: 335px;
-    height: auto;
-}
-
-.mac-gyver button {
-    height: 40px;
-}
-
-
-
-
-
-
-
-
-
-
 
 @keyframes anineRsVisible{
     form{
