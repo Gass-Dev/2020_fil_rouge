@@ -40,9 +40,7 @@ p {
 
 /* size: img, icon */
 .size-562x264px {    
-    width: 562px;
     height: 264px;
-    padding-left: 120px;
 }
 .size-80x80px {
     max-width: 80px;
@@ -61,6 +59,9 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 42px;
+    font-family: Nunito;
+    font-weight: bold;
 }
 .aroundWrap {
     display: flex;
@@ -89,6 +90,8 @@ p {
 }
 .padTop80 {
     padding-top: 80px;
+    font-size: 62px;
+    font-family: Nunito;
 }
 .padTop60 {
     padding-top: 60px;
@@ -236,4 +239,9 @@ a {
         bottom: -5px;
         width: 100%;
     }
+}
+
+.paraNA{
+    font-size: 24px;
+    font-family: Nunito;
 }

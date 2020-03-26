@@ -23,7 +23,7 @@ toggle.addEventListener('click', function(){
     }
 })
 
-var nav = document.getElementById('js-amine-scroll')
+/*var nav = document.getElementById('js-amine-scroll')
 
 window.addEventListener('scroll', function(){
     if(window.innerWidth > 1080){
@@ -35,4 +35,4 @@ window.addEventListener('scroll', function(){
             nav.classList.add('change-nav-scroll-hidden')
         }
     }
-})
+})*/

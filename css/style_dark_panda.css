@@ -8,10 +8,10 @@
 }
 /* bambou baton */
 .container-img-bambou{
-    width: 100%;
+    width: 60%;
     height: 88px;
     position: relative;
-    left: -1000px;
+    left: -120%;
 }
 .container-img-bambou img{
     width: 100%;
@@ -24,9 +24,9 @@
 }
 @keyframes animBambouVisible{
     form{
-        left: -1000px;
+        left: -120%;
     }to{
-        left: 0px;
+        left: 0%;
     }
 }
 
@@ -46,5 +46,22 @@
 }
 /* Panda */
 
+.dark-panda-hidden{
+    width: 235px;
+    height: 235px;
+    display: none;
+}
+.dark-panda-visible{
+    width: 235px;
+    height: 235px;
+    display: block;
+}
 
-/* Conception web & Team */ 
+.ordi-visible{
+    display: initial;
+}
+.ordi-hidden{
+    display: none;
+}
+.
+/* Conception web & Team */
