@@ -1,5 +1,6 @@
 var slider = document.getElementById("slider");
 
+
 var item = document.getElementsByClassName('item')[0];
 var item1 = document.getElementsByClassName('item')[1];
 var item2 = document.getElementsByClassName('item')[2];
@@ -23,3 +24,26 @@ var item2 = document.getElementsByClassName('item')[2];
     item2.style.transform = "rotateY(360deg) translate3d(0px, 0px, 100px) "; //* sauf deg
     }
     })
+
+
+
+    var images =["assets/images/dessin.svg","assets/images/dessin2.svg","assets/images/dessin3.svg"]
+
+    var num = 0;
+    function next() {
+      var sliderResp = document.getElementById("slider-resp");
+      num++;
+      if (num >= images.length) {
+        num = 0;
+      }
+      sliderResp.src = images[num];
+    }
+
+    function prev() {
+      var sliderResp = document.getElementById("slider-resp");
+      num--;
+      if (num < 0) {
+        num = images.length-1;
+      }
+      sliderResp.src = images[num];
+    }
