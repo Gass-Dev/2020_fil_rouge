@@ -6,7 +6,7 @@
 @media (min-width: 1200px){
     /*mac gyver car le code est bricolé */
     .mac-gyver {
-        display: none;
+        visibility: hidden;
     }
 }
 @media (max-width: 1200px){
@@ -23,13 +23,14 @@
 
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    width: auto;
     display: flex;
     align-items: center;
 }
 .mac-gyver img{
-    max-width: 335px;
+    width: 350px;
     height: auto;
+    margin: auto;
 }
 
 
