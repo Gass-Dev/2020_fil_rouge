@@ -1,11 +1,13 @@
+                            /*Slider Responsive*/
 
-/*Slider Responsive*/
+                         /*Comme je n'ai pas reussi a faire dissparaitre le mode 3d
+                            j'ai donc crée un galerie d'image que je fais apparaitre en fonction
+                            de la taille de l'ecran*/
 @media (min-width: 1200px){
+    /*mac gyver car le code est bricolé */
     .mac-gyver {
         visibility: hidden;
     }
-    
-
 }
 @media (max-width: 1200px){
 
@@ -16,27 +18,20 @@
     display: none;
 }
 .mac-gyver {
-visibility: visible;
-position: relative;
+    visibility: visible;
+    position: relative;
 
-margin-left: auto;
-margin-right: auto;
-width: 400px;
-display: flex;
-align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    display: flex;
+    align-items: center;
 }
 .mac-gyver img{
     max-width: 335px;
     height: auto;
 }
 
-.fleche-slider {
-
-    border: none;
-    background-color:white; 
-    z-index: 1;
-  
-}
 
 .fleche-slider img {
     width: 40px;
