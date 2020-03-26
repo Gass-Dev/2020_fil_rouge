@@ -6,7 +6,6 @@
 @media (min-width: 1200px){
     /*mac gyver car le code est bricolé */
     .mac-gyver {
-        /*visibility: hidden;*/
         display: none;
     }
 }
@@ -19,20 +18,18 @@
     display: none;
 }
 .mac-gyver {
-    /*visibility: visible;*/
-    display: block;
+    visibility: visible;
     position: relative;
 
     margin-left: auto;
     margin-right: auto;
-    width: auto;
+    width: 400px;
     display: flex;
     align-items: center;
 }
 .mac-gyver img{
-    width: auto;
+    max-width: 335px;
     height: auto;
-    margin-top: 20%;
 }
 
 
