@@ -1,3 +1,4 @@
+
 /*Slider Responsive*/
 @media (min-width: 1200px){
     .mac-gyver {
@@ -45,3 +46,111 @@ align-items: center;
 
 
 }
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+    and (min-width: 375px) 
+    and (max-width: 812px) 
+    and (-webkit-min-device-pixel-ratio: 1) { 
+        h3 {
+            font-size: 25px;
+        }
+        h2, h4 {
+            font-size: 20px;
+        }
+        h5, p {
+            font-size: 14px;
+        }
+        h6 {
+            font-size: 16px;
+        }
+        .font-size-20{
+            font-size: 20px;
+        }
+
+        /* Notre Agence */
+        .aroundRow .size-562x264px {
+            width: 330px;
+            height: 220px;
+            padding-left: 0%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            display: flex;
+            align-self: center;
+        }
+        .aroundRow {         
+            display: flex;
+            justify-content: center;
+            flex-direction: column-reverse;
+        }
+        .padding120px {
+            padding: 30px;
+        }
+        .padTop80 {
+            padding-top: 20px;
+        }
+        .centerColumn {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .width25vw {
+            width: auto;
+        }
+        .background-bambou-gris {
+            background-image: ;
+        }
+
+        /* Conception Web */
+        .text-align-center {
+            text-align: center;
+        }
+        .borderGreen {
+            border-width: 2px 0;
+        }
+        .padTop60 {
+            padding-top: 20px;
+        }
+        .size-80x80px {
+            width: 45px;
+            height: 45px;
+        }
+        .padding-RL60px {
+            padding-right: 60px;
+            padding-left: 60px;
+        }
+
+        /* Card*/
+        .team {
+            padding: 40px 20px;
+        }
+        .card {
+            width: 330px;
+            height: 484px;
+            background: linear-gradient(180deg, #BEF164, #6CBB4D);
+            padding: 30px 60px;
+            border-radius: 20px;
+            margin: 20px;
+        }
+        .avatarPersonne {
+            height: 150px;
+            width: 150px;
+            position: relative;
+            bottom: -10px;
+            display: flex;
+            align-self: center;
+        }
+        #avatarGwen {
+            width: 160px;
+        }
+        .iconsPersonne {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            position: relative;
+            bottom: 50px;
+        }
+    }
+
