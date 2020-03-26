@@ -232,4 +232,8 @@ a {
     .card{
         width: 416px;
     }
+    .iconsPersonne{
+        bottom: -5px;
+        width: 100%;
+    }
 }
