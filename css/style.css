@@ -74,9 +74,6 @@ p {
     justify-content: center;
 }
 /* L'autres dessins */
-.margin-auto{
-    margin: auto;
-}
 .width25vw {
     width : 25vw;
 }
@@ -140,6 +137,8 @@ hr {
     justify-content: space-between;
     position: relative;
     left: -20px;
+    bottom: 20px;
+    width: 70%;
 }
 .avatarPersonne {
     height: 200px;
