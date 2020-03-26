@@ -27,7 +27,9 @@ var item2 = document.getElementsByClassName('item')[2];
 
                               /*Responsive slider*/
 
-    var images =["assets/images/dessin.svg","assets/images/dessin2.svg","assets/images/dessin3.svg"]
+    var images =["assets/images/dessin.svg",
+                  "assets/images/dessin2.svg",
+                    "assets/images/dessin3.svg"]
 
     var num = 0;
     function next() {
