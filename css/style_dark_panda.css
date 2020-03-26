@@ -1,0 +1,50 @@
+/* Notre Agence */
+.change-notre-agence{
+    background-color: black;
+    color: white;
+}
+.change-color-h3{
+    color: #BEF164;   
+}
+/* bambou baton */
+.container-img-bambou{
+    width: 764px;
+    height: 88px;
+    position: relative;
+    left: -1000px;
+}
+.container-img-bambou img{
+    width: 100%;
+    transform: rotate(175deg);
+}
+.anim-bambou-visible{
+    animation-duration: 0.4s;
+    animation-name: animBambouVisible;
+    animation-fill-mode: forwards;
+}
+@keyframes animBambouVisible{
+    form{
+        left: -1000px;
+    }to{
+        left: 0px;
+    }
+}
+
+.anim-bambou-hidden{
+    left: 0;
+    animation-duration: 0.4s;
+    animation-name: animBambouHidden;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animBambouHidden{
+    form{
+        left: 0px;
+    }to{
+        left: -900px;
+    }
+}
+/* Panda */
+
+
+/* Conception web & Team */ 

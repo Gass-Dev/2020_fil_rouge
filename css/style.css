@@ -51,12 +51,6 @@ p {
     width: auto;
     height: auto;
 }
-.heigh-200px {
-    height: 200px;
-    width: auto;
-    position: relative;
-    bottom: -45px;
-}
 
 /* Position */
 .columnAlignCenter {
@@ -74,13 +68,15 @@ p {
     justify-content: space-around;
     flex-direction: row;
 }
-.columnCenter{
+.columnCenter {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
 /* L'autres dessins */
+.margin-auto{
+    margin: auto;
+}
 .width25vw {
     width : 25vw;
 }
@@ -128,7 +124,7 @@ hr {
     align-self: start;
     border-width: 2px;
     position: relative;
-    left: -40px;
+    left: -60px;
 }
 .presentPer {
     display: flex;
@@ -140,50 +136,22 @@ hr {
 }
 .iconsPersonne {
     display: flex;
-    width: 200px;
-    height: 50px;
     flex-direction: row;
     justify-content: space-between;
     position: relative;
     left: -20px;
 }
-.change-notre-agence{
-    background-color: black;
-    color: white;
-}
-.change-color-h3{
-    color: #BEF164;   
-}
-
-.container-img-bambou{
-    width: 70%;
+.avatarPersonne {
+    height: 200px;
+    width: 170px;
     position: relative;
-    left: -900px;
+    bottom: -45px;
 }
-.container-img-bambou img{
-    width: 100%;
-    transform: rotate(175deg);
-}
-.anim-bambou-visible{
-    animation-duration: 0.4s;
-    animation-name: animBambouVisible;
-    animation-fill-mode: forwards;
-}
-@keyframes animBambouVisible{
-    form{
-        left: -900px;
-    }to{
-        left: 0px;
-    }
+#avatarGwen {
+    width: 200px;
 }
 
-.anim-bambou-hidden{
-    left: 0;
-    animation-duration: 0.4s;
-    animation-name: animBambouHidden;
-    animation-fill-mode: forwards;
-}
-
+<<<<<<< HEAD
 @keyframes animBambouHidden{
     form{
         left: 0px;
@@ -191,7 +159,7 @@ hr {
         left: -900px;
     }
 }
-/* Footer - Ne pas mélanger avec d'autre partie please */
+=======
 footer {
     bottom: 0;
     background: linear-gradient(180deg, #BEF164, #6CBB4D);
@@ -258,3 +226,5 @@ a {
     flex-direction: row;
 
 }
+/* Fin du Footer*/
+>>>>>>> 45e92eac90d957f1eb7b9d34de316e123a128169
