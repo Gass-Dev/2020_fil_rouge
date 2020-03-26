@@ -12,6 +12,7 @@
     height: 88px;
     position: relative;
     left: -120%;
+    top: 65px;
 }
 .container-img-bambou img{
     width: 100%;
@@ -62,6 +63,20 @@
 }
 .ordi-hidden{
     display: none;
+}
+
+.cwac{
+    background-image: url(../assets/images/Pattern-green.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+}
+
+.team-s {
+    background-image: url(../assets/images/Pattern-green.png);
+    background-size: cover;
+    background-repeat: round;
+    background-position-y: 100%;
 }
 .
 /* Conception web & Team */
