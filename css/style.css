@@ -147,27 +147,6 @@ hr {
     position: relative;
     left: -20px;
 }
-footer {
-    bottom: 0;
-    background: linear-gradient(180deg, #BEF164, #6CBB4D);
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 430px;
-    padding: 140px;
-}
-#LogoPandaWeb {
-    width: 145px;
-    height: 145px;
-    margin-bottom: 20px;
-}
-#Adresse {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #ffffff;
-    font-family: 'Nunito', helvetica, sans serif;
-}
 .change-notre-agence{
     background-color: black;
     color: white;
@@ -212,12 +191,35 @@ footer {
         left: -900px;
     }
 }
+/* Footer - Ne pas mélanger avec d'autre partie please */
+footer {
+    bottom: 0;
+    background: linear-gradient(180deg, #BEF164, #6CBB4D);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 430px;
+    padding: 120px;
+}
+#LogoPandaWeb {
+    width: 145px;
+    height: 145px;
+    margin-bottom: 20px;
+}
+#Adresse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Nunito', helvetica, sans serif;
+}
 #Contacteznous {
     color: #ffffff;
     font-family: 'Nunito', helvetica, sans serif;
     font-size: 16px;
     line-height: 32px;
     text-align: center;
+    margin-left: 20px;
 }
 #Decouvreznous {
     display: flex;
@@ -226,6 +228,17 @@ footer {
     font-family: 'Nunito', helvetica, sans serif;
     font-size: 16px;
     line-height: 30px;
+    margin-left: 20px;
+}
+#DocumentsJuridiques {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-family: 'Nunito', helvetica, sans serif;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    margin-left: 20px;
 }
 a {
     text-decoration: none;
