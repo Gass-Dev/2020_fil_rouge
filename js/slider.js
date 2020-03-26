@@ -1,5 +1,5 @@
+                            /*Slider 3D*/
 var slider = document.getElementById("slider");
-
 
 var item = document.getElementsByClassName('item')[0];
 var item1 = document.getElementsByClassName('item')[1];
@@ -25,7 +25,7 @@ var item2 = document.getElementsByClassName('item')[2];
     }
     })
 
-
+                              /*Responsive slider*/
 
     var images =["assets/images/dessin.svg","assets/images/dessin2.svg","assets/images/dessin3.svg"]
 
@@ -47,22 +47,19 @@ var item2 = document.getElementsByClassName('item')[2];
       }
       sliderResp.src = images[num];
     }
-    var area = document.getElementsByClassName('slider')[0];
-    var flecheG = document.getElementsByClassName('fleche-slider')[0]
-    var flecheD = document.getElementsByClassName('fleche-slider')[1]
+                          /*boutton toggle*/ 
+    var flecheG = document.getElementsByClassName('fleche-slider')[0];
+    var flecheD = document.getElementsByClassName('fleche-slider')[1];
+    var backSlider = document.getElementsByClassName('background')[0];
    
-                /*toogle bouton */
+       
       toggle.addEventListener('click', function() {
       if(etat == true){
-      area.style.backgroundColor="black";
-      flecheG.style.backgroundColor="black";
-      flecheD.style.backgroundColor="black";
+        backSlider.setAttribute("src", "assets/images/Pattern-balck.png");
       }
     
     else {
-      area.style.backgroundColor="white";
-      flecheG.style.backgroundColor="white";
-      flecheD.style.backgroundColor="white";
+      backSlider.setAttribute("src", "assets/images/Pattern-balck.png");
     }}
     );
 
