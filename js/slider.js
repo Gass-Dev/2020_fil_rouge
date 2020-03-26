@@ -59,7 +59,7 @@ var item2 = document.getElementsByClassName('item')[2];
       }
     
     else {
-      backSlider.setAttribute("src", "assets/images/Pattern-balck.png");
+      backSlider.setAttribute("src", "assets/images/Pattern-green.png");
     }}
     );
 
