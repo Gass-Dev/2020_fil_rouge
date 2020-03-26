@@ -65,3 +65,12 @@ a {
     flex-direction: row;
 
 }
+
+.change-background-footer1{
+    background: none;
+    background-color: linear-gradient(180deg, #BEF164, #6CBB4D);
+}
+.change-background-footer2{
+    background: none;
+    background-color: #090D0F;
+}
