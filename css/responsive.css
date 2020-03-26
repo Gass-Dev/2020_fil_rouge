@@ -28,3 +28,20 @@ align-items: center;
     max-width: 335px;
     height: auto;
 }
+
+.fleche-slider {
+
+    border: none;
+    background-color:white; 
+    z-index: 1;
+  
+}
+
+.fleche-slider img {
+    width: 40px;
+    
+}
+
+
+
+}

@@ -48,15 +48,21 @@ var item2 = document.getElementsByClassName('item')[2];
       sliderResp.src = images[num];
     }
     var area = document.getElementsByClassName('slider')[0];
+    var flecheG = document.getElementsByClassName('fleche-slider')[0]
+    var flecheD = document.getElementsByClassName('fleche-slider')[1]
    
                 /*toogle bouton */
       toggle.addEventListener('click', function() {
       if(etat == true){
       area.style.backgroundColor="black";
+      flecheG.style.backgroundColor="black";
+      flecheD.style.backgroundColor="black";
       }
     
     else {
       area.style.backgroundColor="white";
+      flecheG.style.backgroundColor="white";
+      flecheD.style.backgroundColor="white";
     }}
     );
 
