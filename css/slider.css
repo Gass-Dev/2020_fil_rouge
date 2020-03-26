@@ -16,6 +16,11 @@ html, body{
   height: 100%;
 }
 
+#alignement{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .slider{
   height: 100vh;
@@ -78,8 +83,9 @@ html, body{
 #slider{
   position: relative;
   left:40%;
-  top:40px;
-
+  top:80px;
+  
+  
   
 }
 
