@@ -19,6 +19,46 @@
     animation-name: animNavButtonReft;
     animation-fill-mode: forwards;
 }
+@keyframes animeRsHidden{
+    form{
+        right: 35px;
+    }to{
+        right: -200px;
+    }
+}
+
+
+@keyframes animNavHidden{
+    from{
+        left: 0px;
+    }to{
+        left: -200px;
+    }
+}
+
+@keyframes animNavVisible{
+    from{
+        left: -200px;
+    }to{
+        left: 0px;
+    }
+}
+
+@keyframes animNavButtonLeft{
+    from{
+        left: 12px;
+    }to{
+        left: 50px;
+    }
+}
+
+@keyframes animNavButtonReft{
+    from{
+        left: 50px;
+    }to{
+        left: 12px;
+    }
+}
 
 header{
     width: 100%;
@@ -262,46 +302,6 @@ header{
     animation-name: animeRsHidden;
     animation-fill-mode: forwards;
 }
-@keyframes animeRsHidden{
-    form{
-        right: 35px;
-    }to{
-        right: -200px;
-    }
-}
-
-
-@keyframes animNavHidden{
-    from{
-        left: 0px;
-    }to{
-        left: -200px;
-    }
-}
-
-@keyframes animNavVisible{
-    from{
-        left: -200px;
-    }to{
-        left: 0px;
-    }
-}
-
-@keyframes animNavButtonLeft{
-    from{
-        left: 12px;
-    }to{
-        left: 50px;
-    }
-}
-
-@keyframes animNavButtonReft{
-    from{
-        left: 50px;
-    }to{
-        left: 12px;
-    }
-}
 
 .container-agence{
     width: 100%;
@@ -375,6 +375,9 @@ header{
     margin: 10px 0 0 10px;
 }
 
-.change-nav-scroll{
+.change-nav-scroll-visible{
     background-color: green;
+}
+.change-nav-scroll-hidden{
+    background-color: none;
 }

@@ -28,7 +28,11 @@ var nav = document.getElementById('js-amine-scroll')
 window.addEventListener('scroll', function(){
     if(window.innerWidth > 1080){
         if(document.documentElement.scrollTop >= 912 || document.body.scrollTop >= 912){
-                nav.classList.add('change-nav-scroll')  
+            nav.classList.remove('change-nav-scroll-hidden')
+            nav.classList.add('change-nav-scroll-visible') 
+        }else{
+            nav.classList.remove('change-nav-scroll-visible') 
+            nav.classList.add('change-nav-scroll-hidden')
         }
     }
 })
