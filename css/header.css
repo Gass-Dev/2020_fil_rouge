@@ -374,3 +374,7 @@ header{
 .change-logo{
     margin: 10px 0 0 10px;
 }
+
+.change-nav-scroll{
+    background-color: green;
+}
