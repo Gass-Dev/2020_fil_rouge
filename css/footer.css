@@ -74,3 +74,18 @@ a {
     background: none;
     background-color: #090D0F;
 }
+
+
+@media screen and (max-width: 1184px){
+    footer{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.footer-logo-change-toggle{
+    background-color: white;
+    border-radius: 100%;
+}
