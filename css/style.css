@@ -79,6 +79,9 @@ p {
     justify-content: center;
 }
 /* L'autres dessins */
+.textAlignJustify {
+    text-align: justify;
+}
 .width25vw {
     width : 25vw;
 }
