@@ -67,6 +67,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 100%;
+    overflow: hidden;
 }
 .conatiner-contact{
     width: 80%;
@@ -239,15 +240,16 @@ header{
     }
 }
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 1220px){
     .container-logo{
         left: 42%;
+        top: 25px;
     }
     .container-options{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        position: fixed;
+        position: absolute;
         width: 260px;
         top: 115px;
         left: -200px;

@@ -68,9 +68,24 @@ a {
 
 .change-background-footer1{
     background: none;
-    background-color: linear-gradient(180deg, #BEF164, #6CBB4D);
+    background-color:  #BEF164;
 }
 .change-background-footer2{
     background: none;
     background-color: #090D0F;
+}
+
+
+@media screen and (max-width: 1184px){
+    footer{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.footer-logo-change-toggle{
+    background-color: white;
+    border-radius: 100%;
 }
