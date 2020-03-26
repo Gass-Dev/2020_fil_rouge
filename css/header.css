@@ -161,7 +161,7 @@ header{
     background-color: rgba(88, 215, 96, 0.5);
 }
 .container-nav{
-    position: fixed;
+    position: relative;
     width: 100%;
     z-index: 1000;
 }
