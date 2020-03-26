@@ -47,3 +47,25 @@ var item2 = document.getElementsByClassName('item')[2];
       }
       sliderResp.src = images[num];
     }
+    var area = document.getElementsByClassName('slider')[0];
+   
+                /*toogle bouton */
+      toggle.addEventListener('click', function() {
+      if(etat == true){
+      area.style.backgroundColor="black";
+      }
+    
+    else {
+      area.style.backgroundColor="white";
+    }}
+    );
+
+
+
+   
+
+   
+
+
+
+
