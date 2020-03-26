@@ -246,42 +246,7 @@ header{
     animation-fill-mode: forwards;
 }
 
-<<<<<<< HEAD
-=======
-/*Slider Responsive*/
-@media (min-width: 1200px){
-    .mac-gyver {
-        visibility: hidden;
-    }
 
-}
-@media (max-width: 1200px){
-    .carousel{
-        display: none;
-    }
-    #slider{
-        display: none;
-    }
-    .mac-gyver {
-    visibility: visible;
-    position: relative;
-
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    display: flex;
-    align-items: center;
-    }
-    .mac-gyver img{
-        max-width: 335px;
-        height: auto;
-    }
-
-    .mac-gyver button {
-        height: 40px;
-    }
-}
->>>>>>> b0c5e6a8dfcc048923981c5cc22a06cc7e83e9b1
 
 @keyframes anineRsVisible{
     form{
