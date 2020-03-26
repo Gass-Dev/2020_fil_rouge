@@ -1,16 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+        <link href="https://fonts.googleapis.com/css?family=Nunito:700&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="assets/fontAwesome/fontawesome-free-5.13.0-web/css/all.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/button_toggle.css">
         <link rel="stylesheet" href="css/slider.css">
         <link rel="shortcut icon" href="assets/images/Favicon_PandaWeb.png" type="image/x-icon">
-        <title>Panda</title>
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+
+        <title>Panda Web</title>
     </head>
     <body>
         <!---
@@ -33,7 +37,7 @@
                     <label for="message">message :</label>
                     <textarea name="message" id="message" cols="30" rows="10" placeholder="votre message"></textarea>
     
-                    <button type="submit">Send</button>
+                    <button class="button-form" type="submit">Send</button>
                 </div>
             </div>
             <div class="color" id="color">
@@ -92,15 +96,18 @@
         </header>
         <main>
             <!-- Notre Agence -->
-            <div class="padding120px">
-                <h3 class="bold columnAlignCenter">Notre Agence</h3>
+            <div class="padding120px caca pipi popo" id="js-my-notre-agence">
+                <h3 class="bold columnAlignCenter" id="js-my-title-agence">Notre Agence</h3>
                 <h2 class="bold padTop80">On s'est dit qu'être la team PANDA,<br>c'était pas mal.</h2>
                 <div class="aroundRow">
                     <div class="columnCenter">
                         <h5>Nous sommes une agence créative & technique, amoureux des pandas et du digital.</h5>
                         <h5 class="padTop20">Notre métier nous tient à coeur et le mentoring aussi. C'est pourquoi, nous accompagnons des apprenants et des micro-entreprises à s'ouvrir au digital. Nous nous engageons à fournir à nos clients un service exceptionnel tout en offrant à nos employés la meilleure formation possible.</h5>
                     </div>
-                    <img class="size662x254px" src="assets/images/image-Div1.jpg" alt="Notre Agence">
+                    <img class="size-562x264px" src="assets/images/image-Div1.jpg" alt="Notre Agence">
+                </div>
+                <div id="js-my-bambou" class="container-img-bambou">
+                    <img src="assets/images/Baton-Bambou.png" alt="image de bambou">
                 </div>
             </div>
             <!-- Conception web et applications créatives-->
@@ -109,28 +116,27 @@
                 <div class="aroundRow">
                     <div class="columnAlignCenter width25vw">
                         <div class="padTop80 columnAlignCenter">
-                            <img class="size80x80px" src="assets/icons/icons8-panneau-de-stratégie-100.png" alt="Strategie">
+                            <img class="size-80x80px" src="assets/icons/icons8-panneau-de-stratégie-100.png" alt="Strategie">
                             <h4 class="bold padTop20">STRATEGIE</h4>
                         </div>
                         <p class="padTop60">Quelque chose doit être changé ou quelque chose ne fonctionne pas tout à fait comme vous l'aviez envisagé?</p>
                     </div>
                     <div class="columnAlignCenter width25vw">
                         <div class="padTop80 columnAlignCenter">
-                            <img class="size80x80px" src="assets/icons/icons8-web-100.png" alt="Design moderne">
+                            <img class="size-80x80px" src="assets/icons/icons8-web-100.png" alt="Design moderne">
                             <h4 class="bold padTop20">DESIGN MODERNE</h4>
                         </div>
                         <p class="padTop60">Quelque chose doit être changé ou quelque chose ne fonctionne pas tout à fait comme vous l'aviez envisagé?</p>
                     </div>
                     <div class="columnAlignCenter width25vw">
                         <div class="padTop80 columnAlignCenter">
-                            <img class="size80x80px" src="assets/icons/icons8-google-classroom-100.png" alt="Produit digital">
+                            <img class="size-80x80px" src="assets/icons/icons8-google-classroom-100.png" alt="Produit digital">
                             <h4 class="bold padTop20">PRODUIT DIGITAL</h4>
                         </div>
                         <p class="padTop60">Quelque chose doit être changé ou quelque chose ne fonctionne pas tout à fait comme vous l'aviez envisagé?</p>
                     </div>
                 </div>
             </div>
-            <!-- Nos Offres -->
             <!-- Nos Offres -->
             <div class = "margin42px0">
         
@@ -159,7 +165,7 @@
             <div class = "team">
                 <h3 class="bold columnAlignCenter">Une incroyable team</h3>
                 <div class="aroundWrap padding120px">
-                    <!-- Card Gween -->
+                    <!-- Card Gwen -->
                     <div class="card">
                         <p class="bold personne">Chef de projet & <br> Developpeur Fullstack - Javascript</p>
                         <h4 class="bold personne">Gwenaëlle FOUQUET</h4>
@@ -167,13 +173,13 @@
                         <div class="aroundRow">
                             <div class="presentPer">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint itaque eaque temporibus reprehenderit voluptatibus veniam quos aperiam illum ipsum placeat inventore, quibusdam molestiae neque velit repellat non obcaecati explicabo dolore!</p>
-                                <div>
-                                    <a href="https://fr.linkedin.com"><img class="size45x45px" src="assets/icons/linkedin.svg" alt="linkedin"></a>
-                                    <a href="https://github.com/Gass-Dev"><img class="size45x45px padRL20px" src="assets/icons/github.svg" alt="github"></a>
-                                    <a href="https://www.behance.net"><img class="size45x45px" src="assets/icons/behance-network.svg" alt="behance-network"></a>
+                                <div class="iconsPersonne">
+                                    <a href="https://fr.linkedin.com"><img class="size-45x45px padding-RL20px" src="assets/icons/linkedin.svg" alt="linkedin"></a>
+                                    <a href="https://github.com/Gass-Dev"><img class="size-45x45px padding-RL20px" src="assets/icons/github.svg" alt="github"></a>
+                                    <a href="https://www.behance.net"><img class="size-45x45px padding-RL20px" src="assets/icons/behance-network.svg" alt="behance-network"></a>
                                 </div>
                             </div>
-                            <img class="size300x200px" src="assets/images/avatar-Gwen.png" alt="Avatar Gwen">
+                            <img class="heigh-200px" src="assets/images/avatar-Gwen.png" alt="Avatar Gwen">
                         </div>
                     </div>
                     <!-- Card Lorris -->
@@ -184,13 +190,13 @@
                         <div class="aroundRow">
                             <div class="presentPer">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint itaque eaque temporibus reprehenderit voluptatibus veniam quos aperiam illum ipsum placeat inventore, quibusdam molestiae neque velit repellat non obcaecati explicabo dolore!</p>
-                                <div>
-                                    <a href="https://fr.linkedin.com"><img class="size45x45px" src="assets/icons/linkedin.svg" alt="linkedin"></a>
-                                    <a href="https://github.com/yourownway"><img class="size45x45px padRL20px" src="assets/icons/github.svg" alt="github"></a>
-                                    <a href="https://www.behance.net"><img class="size45x45px" src="assets/icons/behance-network.svg" alt="behance-network"></a>
+                                <div class="iconsPersonne">
+                                    <a href="https://fr.linkedin.com"><img class="size-45x45px padding-RL20px" src="assets/icons/linkedin.svg" alt="linkedin"></a>
+                                    <a href="https://github.com/yourownway"><img class="size-45x45px padding-RL20px" src="assets/icons/github.svg" alt="github"></a>
+                                    <a href="https://www.behance.net"><img class="size-45x45px padding-RL20px" src="assets/icons/behance-network.svg" alt="behance-network"></a>
                                 </div>
                             </div>
-                            <img class="size300x200px" src="assets/images/avatarlolo.png" alt="Avatar Lorris">
+                            <img class="heigh-200px" src="assets/images/avatarlolo.png" alt="Avatar Lorris">
                         </div>
                     </div>
                     <!-- Card My -->
@@ -201,13 +207,13 @@
                         <div class="aroundRow">
                             <div class="presentPer">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint itaque eaque temporibus reprehenderit voluptatibus veniam quos aperiam illum ipsum placeat inventore, quibusdam molestiae neque velit repellat non obcaecati explicabo dolore!</p>
-                                <div>
-                                    <a href="https://fr.linkedin.com"><img class="size45x45px" src="assets/icons/linkedin.svg" alt="linkedin"></a>
-                                    <a href="https://github.com/My-VO"><img class="size45x45px padRL20px" src="assets/icons/github.svg" alt="github"></a>
-                                    <a href="https://www.behance.net"><img class="size45x45px" src="assets/icons/behance-network.svg" alt="behance-network"></a>
+                                <div class="iconsPersonne">
+                                    <a href="https://fr.linkedin.com"><img class="size-45x45px padding-RL20px" src="assets/icons/linkedin.svg" alt="linkedin"></a>
+                                    <a href="https://github.com/My-VO"><img class="size-45x45px padding-RL20px" src="assets/icons/github.svg" alt="github"></a>
+                                    <a href="https://www.behance.net"><img class="size-45x45px padding-RL20px" src="assets/icons/behance-network.svg" alt="behance-network"></a>
                                 </div>
                             </div>
-                            <img class="size300x200px" src="assets/images/avatar_My.png" alt="Avatar My">
+                            <img class="heigh-200px" src="assets/images/avatar_My.png" alt="Avatar My">
                         </div>
                     </div>
                     <!-- Card Amine -->
@@ -218,48 +224,52 @@
                         <div class="aroundRow">
                             <div class="presentPer">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint itaque eaque temporibus reprehenderit voluptatibus veniam quos aperiam illum ipsum placeat inventore, quibusdam molestiae neque velit repellat non obcaecati explicabo dolore!</p>
-                                <div>
-                                    <a href="https://fr.linkedin.com"><img class="size45x45px" src="assets/icons/linkedin.svg" alt="linkedin"></a>
-                                    <a href="https://github.com/aminehadefdev"><img class="size45x45px padRL20px" src="assets/icons/github.svg" alt="github"></a>
-                                    <a href="https://www.behance.net"><img class="size45x45px" src="assets/icons/behance-network.svg" alt="behance-network"></a>
+                                <div class="iconsPersonne">
+                                    <a href="https://fr.linkedin.com"><img class="size-45x45px padding-RL20px" src="assets/icons/linkedin.svg" alt="linkedin"></a>
+                                    <a href="https://github.com/aminehadefdev"><img class="size-45x45px padding-RL20px" src="assets/icons/github.svg" alt="github"></a>
+                                    <a href="https://www.behance.net"><img class="size-45x45px padding-RL20px" src="assets/icons/behance-network.svg" alt="behance-network"></a>
                                 </div>
                             </div>
-                            <img class="size300x200px" src="assets/images/avatar-amine.png" alt="Avatar Amine">
+                            <img class="heigh-200px" src="assets/images/avatar-amine.png" alt="Avatar Amine">
                         </div>
                     </div>
                 </div>
                 
             </div>
         </main>
+
         <footer>
             <div id="Adresse">
                 <img id="LogoPandaWeb" src="assets/images/logo.png" alt="Logo Panda Web">
                 <p>21 Rue de la Vanne</br>92120 Montrouge</p>
             </div>
-            <div id="Decouvrez-nous">
-                <h3>Découvrez-nous</h3>
+            <div id="Decouvreznous">
+                <h6>Découvrez-nous</h3>
                 <a href="#">Accueil</a>
-                <a href="#">L’agence</a>
-                <a href="#">La team</a>
+                <a href="#">L’Agence</a>
+                <a href="#">La Team</a>
                 <a href="#">Nos Offres</a>
                 <a href="#">Contact</a>
             </div>
-            <div id="Contactez-nous">
-                <h3>Contactez-nous</h3>
+            <div id="Contacteznous">
+                <h6>Contactez-nous</h3>
                 <p>01 00 00 00 00</p>
                 <p>contact@pandaweb.com</p>
                 <p>jobs@pandaweb.com</p>
-                <div class = "RS">
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>
+                <div id="RSFooter">
+                    <a href="#"><img class="rsfooter" src="assets/images/facebook.svg" alt="icon facebook"></a>
+                    <a href="#"><img class="rsfooter" src="assets/images/instagram.svg" alt="icon instagram"></a>
+                    <a href="#"><img class="rsfooter" src="assets/images/github.svg" alt="icon github"></a>
+                    <a href="#"><img class="rsfooter" src="assets/images/linkedin.svg" alt="icon linkedin"></a>
                 </div>
             </div>
         </footer>
+
         <script src="js/toggle.js"></script>
         <script src="js/buttonNavBar.js"></script>
         <script src="js/slider.js"></script>
         <script src="js/header_toggle.js"></script>
         <script src="js/contact.js"></script>
+        <script src="js/my.js"></script>
     </body>
 </html>

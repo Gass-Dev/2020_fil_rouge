@@ -36,7 +36,19 @@ header{
     top: -100%;
     left: 12%;
     z-index: 1000000;
-    border-radius: 25px;
+    border-radius: 10px;
+}
+.conatiner-contact i{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 102%;
+    top: -7%;
+}
+.conatiner-contact h3{
+    font-size: 42px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
 }
 .containe-form{
     display: flex;
@@ -44,6 +56,29 @@ header{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.containe-form input,textarea {
+    height: 30px;
+    border-bottom: solid 1.5px lightgray!important;
+    margin-bottom: 20px;
+}
+#message{
+    height: 140px;
+}
+.containe-form input,textarea{
+    border: none;
+    background-color: #F2F2F2;
+}
+.button-form{
+    width: 21%;
+    position: relative;
+    left: 42%;
+    height: 37px;
+    color: black;
+    background: linear-gradient(#BEF164, #6CBB4D);
+    border-radius: 30px;
+    border: none;
 }
 .anim-container-contact-visebel{
     animation-duration: 0.4s;
@@ -54,10 +89,22 @@ header{
     from{
         top: -100%;
     }to{
-        top: 3%;
+        top: 15%;
     }
 }
 
+.anim-container-contact-hidden{
+    animation-duration: 0.4s;
+    animation-name: animContainerContactHidden;
+    animation-fill-mode: forwards;
+}
+@keyframes animContainerContactHidden{
+    from{
+        top: 15%;
+    }to{
+        top: -100%;
+    }
+}
 
 .button-nav-bar{
     display: none;
