@@ -95,7 +95,7 @@
             width: auto;
         }
         .background-bambou-gris {
-            background-image: ;
+            background-image: url("Pattern_grey-transparent.png");
         }
 
         /* Conception Web */
@@ -144,8 +144,14 @@
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            width: 100%;
             position: relative;
             bottom: 50px;
+        }
+        .aroundColumn {         
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
         }
     }
 
