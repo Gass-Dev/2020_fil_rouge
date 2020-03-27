@@ -74,7 +74,7 @@
 
 .team-s {
     background-image: url(../assets/images/Pattern-green.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: round;
     background-position-y: 100%;
 }
