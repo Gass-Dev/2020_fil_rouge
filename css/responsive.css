@@ -6,7 +6,8 @@
 @media (min-width: 1200px){
     /*mac gyver car le code est bricolé */
     .mac-gyver {
-        visibility: hidden;
+        /*visibility: hidden;*/
+        display: none;
     }
 }
 @media (max-width: 1200px){
