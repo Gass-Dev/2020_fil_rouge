@@ -27,6 +27,7 @@
     width: auto;
     display: flex;
     align-items: center;
+    margin-top: 20%;
 }
 .mac-gyver img{
     width: 350px;
