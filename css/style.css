@@ -41,6 +41,7 @@ p {
 /* size: img, icon */
 .size-562x264px {    
     height: 264px;
+    padding-left: 30px;
 }
 .size-80x80px {
     max-width: 80px;
