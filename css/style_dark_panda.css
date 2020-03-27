@@ -66,20 +66,20 @@
 }
 
 .cwac{
-    background-image: url(../assets/images/Pattern-balck.png);
+    background-image: url(../assets/images/Pattern-green.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 100%;
-    color: white;
+    
     
 }
 
 .team-s {
-    background-image: url(../assets/images/Pattern-balck.png);
+    background-image: url(../assets/images/Pattern-green.png);
     background-size: contain;
     background-repeat: round;
     background-position-y: 100%;
-    color: white;
+    
 }
 .
 /* Conception web & Team */

@@ -5,9 +5,8 @@ var imgOrdi = document.getElementById('js-my-img-na')
 var darkPanda = document.getElementById('js-my-dark-panda')
 var bgCwac = document.getElementById('js-my-bg-cwac')
 var teams = document.getElementById('teams')
-var icon1 = document.getElementsByClassName('size-80x80px')[0]
-var icon2 = document.getElementsByClassName('size-80x80px')[1]
-var icon3 = document.getElementsByClassName('size-80x80px')[2]
+
+
 toggle.addEventListener('click', function() {
     if(etat == true){
         containerNotreAgence.classList.add('change-notre-agence')
@@ -25,9 +24,7 @@ toggle.addEventListener('click', function() {
         bgCwac.classList.add('cwac')
         teams.classList.add('team-s')
 
-        icon1.setAttribute("src", "../assets/icons/dark-classroom-100.png");
-        icon2.setAttribute("src", "../assets/icons/dark-web-100.png");
-        icon3.setAttribute("src", "../assets/icons/dark-classroom-100.png");
+
         
     }else if(etat == false){
         containerNotreAgence.classList.remove('change-notre-agence')
