@@ -33,10 +33,7 @@ html, body{
 .carousel{
   width: 400px;
   height: 500px;
-  position: relative;
-  top:50%;
-  left:50%;
-  transform: translateX(-50%) translateY(-50%);
+  margin: auto;
 
   perspective: 1000px;
   transform-style: preserve-3d;
