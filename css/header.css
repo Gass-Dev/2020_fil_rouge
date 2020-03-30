@@ -291,7 +291,7 @@ header{
 
 
 @keyframes anineRsVisible{
-    form{
+    from{
         right: -200px;
     }to{
         right: 35px;
