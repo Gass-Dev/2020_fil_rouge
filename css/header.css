@@ -20,7 +20,7 @@
     animation-fill-mode: forwards;
 }
 @keyframes animeRsHidden{
-    form{
+    from{
         right: 35px;
     }to{
         right: -200px;
@@ -363,7 +363,7 @@ header{
     opacity: 1;
 }
 .change-color{
-    background-color: none;
+    background-color: transparent;
     width: 100%;
     height: 985px;
 }
@@ -381,5 +381,5 @@ header{
     background-color: green;
 }
 .change-nav-scroll-hidden{
-    background-color: none;
+    background-color: transparent;
 }
