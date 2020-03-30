@@ -24,7 +24,7 @@
     animation-fill-mode: forwards;
 }
 @keyframes animBambouVisible{
-    form{
+    from{
         left: -120%;
     }to{
         left: 0%;
@@ -39,7 +39,7 @@
 }
 
 @keyframes animBambouHidden{
-    form{
+    from{
         left: 0px;
     }to{
         left: -900px;
@@ -81,5 +81,3 @@
     background-position-y: 100%;
     
 }
-.
-/* Conception web & Team */
