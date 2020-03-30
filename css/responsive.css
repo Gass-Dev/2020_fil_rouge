@@ -21,20 +21,25 @@
 .mac-gyver {
     visibility: visible;
     position: relative;
-
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
+    margin: auto;
+    width: 300px;
     display: flex;
     align-items: center;
-    margin-top: 50%;
+    z-index: 1;
+    top: 20%;
+   
 }
 .mac-gyver img{
     width: 350px;
     height: auto;
     margin: auto;
+
 }
 
+.slider {
+    width: 100vw;
+    height: 100vh;
+}
 
 .fleche-slider img {
     width: 40px;
