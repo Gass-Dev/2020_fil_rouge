@@ -162,7 +162,7 @@ hr {
 }
 
 @keyframes animBambouHidden{
-    form{
+    from{
         left: 0px;
     }to{
         left: -900px;
